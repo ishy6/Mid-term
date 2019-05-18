@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/ic_menu_save"
+          android:alphabeticShortcut='s'
+          android:title="@string/menu_save"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_revert"
+          android:icon="@drawable/ic_menu_revert"
+          android:title="@string/menu_revert" />
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/ic_menu_delete"
+          android:title="@string/menu_delete"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_color"
+        android:title="color"
+        android:icon="@drawable/ic_menu_edit"
+        android:showAsAction="always"/>
+    <item android:title="font size"
+        >
+        <menu>
+            <group>
+            <item android:title="big"
+                android:id="@+id/font_40"></item>
+             <item android:title="middle"
+                    android:id="@+id/font_30"></item>
+            <item android:title="small"
+                    android:id="@+id/font_20"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_output"
+        android:title="output" />
+</menu>
